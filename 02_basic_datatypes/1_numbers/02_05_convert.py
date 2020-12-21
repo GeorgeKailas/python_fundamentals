@@ -10,3 +10,13 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+a = 2
+print (a*1.1)
+b = 2.1
+print (int(b)) 
+
+print(b//a)
+
+c = int(input("give me a number:"))
+d = int(input("give me another number:"))
+print(c*d)
