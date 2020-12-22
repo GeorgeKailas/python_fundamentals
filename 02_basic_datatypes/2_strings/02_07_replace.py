@@ -7,4 +7,7 @@ Symbol input: #
 Result: #ore python progra##ing please
 
 '''
-
+a = input("give me a sentence:")
+b = input("give me a symbol:")
+c = a[0]
+print(a.replace(c,b))

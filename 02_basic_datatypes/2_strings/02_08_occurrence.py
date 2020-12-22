@@ -7,3 +7,5 @@ Letter input: o
 Result: 4
 
 '''
+string = "hello world"
+print(string.find("o",0))
