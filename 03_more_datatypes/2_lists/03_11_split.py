@@ -19,8 +19,8 @@ s_s = s.split()
 count_word_dict = {}
 for i in s_s:
     count_word_dict[i] = s_s.count(i)
-v=(count_word_dict.values())
-k=(count_word_dict.keys())
+v = list(count_word_dict.values())
+k = list(count_word_dict.keys())
 print(k[v.index(max(v))])
 
 
