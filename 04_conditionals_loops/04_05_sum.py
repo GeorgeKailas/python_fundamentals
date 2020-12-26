@@ -7,3 +7,9 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+n1 = int(input("give me a number:"))
+n2 = int(input("give me another number:"))
+total = 0
+for i in range(n1,n2+1):
+    total += i
+print(total)
