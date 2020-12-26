@@ -10,4 +10,11 @@ For example if n is 3, you print:
 
 '''
 
-n = 5
+inp = input("give me a number:")
+n = int(inp)
+nr = range(1,n+1)
+nl = list(nr)
+
+for i in nl:
+    print(i*"*")
+

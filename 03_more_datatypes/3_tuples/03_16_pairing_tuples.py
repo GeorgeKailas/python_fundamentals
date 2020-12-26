@@ -11,3 +11,6 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+
+input = 3,4,88,9,11,22,44,99
+sorted(input))
