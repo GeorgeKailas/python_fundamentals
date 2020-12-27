@@ -13,4 +13,15 @@ or chat about it on our forum.
 '''
 
 input = 3,4,88,9,11,22,44,99
-sorted(input))
+sinput = (sorted(input))
+counter = 0
+list_toutput = []
+for num in sinput:
+    toutput = ()
+    if counter % 2 != 0:
+        toutput += tuple(num)
+        counter += 1
+    else:
+        counter +=1
+list_output.append(toutput)
+print(list_toutput)
