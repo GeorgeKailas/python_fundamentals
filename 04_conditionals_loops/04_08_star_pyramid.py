@@ -17,3 +17,11 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+num = int(input("give me a number:"))
+counter = 1
+while counter <= num:
+    print(counter*"*")
+    counter += 1
+    continue
+# else: 
+#     counter += 1

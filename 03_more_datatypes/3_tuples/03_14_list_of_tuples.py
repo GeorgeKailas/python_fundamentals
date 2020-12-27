@@ -14,17 +14,16 @@ result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 # print(r)
 
 
-# tinput = input("Give me a string:")
-tinput = "hello world"
+tinput = input("Give me a string:")
 list_tinput = tinput.split()
+list_output = []
 for word in list_tinput:
     toutput = ()
     for char in word:
         toutput += tuple(char)
-        for i in toutput:
-            result = []
-            result += i 
-        print(result)
+    list_output.append(toutput)
+print(list_output)
+
 
 
 
