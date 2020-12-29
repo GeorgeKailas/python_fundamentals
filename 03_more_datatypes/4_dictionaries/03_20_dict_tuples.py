@@ -10,3 +10,18 @@ NOTE: Check out the Python docs and see whether you can come up with a solution,
       Feel free to discuss any questions you have with your mentor and on the forum!
 
 '''
+import operator
+d = {"item1": 5, "item2": 6, "item3": 1}
+l = list(d.items()) 
+nl = sorted(l, key=operator.itemgetter(1))
+print(nl)
+
+
+
+# l = {"item1": 5, "item2": 6, "item3": 1}
+# l1 = []
+# l1.append(l)
+# vals = []
+# for d in l1:
+#     vals.extend(d.values())
+# print(tuple(vals))

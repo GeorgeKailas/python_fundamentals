@@ -11,8 +11,16 @@ dict_2 = {"a": 2, "c": 4 , "d": 2}
 result = {"a": 3, "b": 2, "c": 7 , "d": 2}
 
 '''
+from collections import Counter
+
 dict_1 = {"a": 1, "b": 2, "c": 3}
 dict_2 = {"a": 2, "c": 4 , "d": 2}
+
+dict_c = dict(Counter(dict_1)+Counter(dict_2))
+print(dict_c)
+
+
+
 
 
 
