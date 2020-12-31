@@ -13,3 +13,19 @@ Write a script that completes the following tasks.
 # call your functions, passing in the user input as the arguments, and set their output equal to new variables 
 
 # print your new variables to display the results
+
+def func47o(num):
+    if num % 4 == 0 or num % 7 == 0:
+        return True
+    else:
+        return False
+
+def func47a(num):
+    if num % 4 == 0 and num % 7 == 0:
+        return True
+    else:
+        return False
+
+ui = int(input("give me a number:"))
+print(func47o(ui))
+print(func47a(ui))

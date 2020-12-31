@@ -5,8 +5,7 @@ formatted like so:
 "The inspiring quote" - Lastname, Firstname
 
 '''
-
-famous_quotes = [
+fq = [
     {"full_name": "Isaac Asimov", "quote": "I do not fear computers. I fear lack of them."},
     {"full_name": "Emo Philips", "quote": "A computer once beat me at chess, but it was no match for me at "
                                           "kick boxing."},
@@ -18,3 +17,26 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+# Grab inspiring quote
+# Grab last name 
+# grab first name 
+# print with f string 
+
+nl = []
+
+for dic in fq:
+    quote = dic["quote"]
+    name = dic["full_name"]
+    sname = name.split()
+    first_name = sname[0]
+    last_name = sname[-1]
+    print(f'"{quote}" - {last_name}, {first_name}')
+# print(nl)
+
+# keys = fq.keys() 
+# values = fq.values() 
+  
+# # printing keys and values separately 
+# print ("keys : ", str(keys)) 
+# print ("values : ", str(values)) 
