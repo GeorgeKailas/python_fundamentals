@@ -8,3 +8,5 @@ Then open up your online shop ;)
 
 colors = ["neon orange", "spring green"]
 sizes = ["S", "M", "L"]
+cp = [(a, b) for a in sizes for b in colors] 
+print(cp)

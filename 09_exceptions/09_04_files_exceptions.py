@@ -23,3 +23,31 @@ BONUS CHALLENGE: write a custom Exception that inherits from Exception and raise
 first 100 characters of any of the files contain the string "Prince".
 
 '''
+c_p = []
+
+with open("war_and_peace.txt", "r") as fin:
+    for word in fin.readlines():
+        # word.replace('\n', "")
+        # Not sure why above doesn't work?
+        c_p.append(word)
+print(c_p)
+
+with open("crime_and_punishment.txt", 'w') as fout:
+    fout.write("")
+
+with open("war_and_peace.txt", "r") as fin:
+    for word in fin.readlines():
+        print(word[0])
+
+with open("crime_and_punishment.txt", "r") as fin:
+    for word in fin.readlines():
+        print(word[0])
+
+with open("pride_and_prejudice.txt", "r") as fin:
+    for word in fin.readlines():
+        print(word[0])
+
+
+    
+
+    

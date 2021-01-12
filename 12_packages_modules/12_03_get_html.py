@@ -9,3 +9,17 @@ TIP:
     very common. head over to SO and find a solution!
 
 '''
+# from lxml import html
+# import requests
+
+# page = requests.get('https://codingnomads.co/')
+# # tree = html.fromstring(page.content)
+# print(page)
+
+from http.client import HTTPConnection
+conn = HTTPConnection("codingnomads.co/")
+conn.request("GET", "/")  
+result = conn.getresponse()
+# retrieves the entire contents.  
+contents = result.read() 
+print(contents)

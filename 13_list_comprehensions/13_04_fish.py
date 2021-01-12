@@ -7,3 +7,6 @@ Tip: Use an if statement in the listcomp
 '''
 
 fish_tuple = ('blowfish', 'clownfish', 'catfish', 'octopus')
+
+ft2 = [word for word in fish_tuple if 'fish' in word] 
+print(ft2)
