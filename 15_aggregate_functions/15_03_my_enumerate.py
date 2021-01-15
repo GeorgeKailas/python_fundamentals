@@ -8,10 +8,13 @@ and yields the element and its index
 my_list = ["apple", "banana", "orange"]
 nl = []
 
-def my_enumerate(self):
-      for w in my_list:
-            nl.append(my_list.index(), w)
+for idx, item in enumerate(my_list):
+      print(idx, item)
 
-my_enumerate(nl)
+# def my_enumerate(x,y):
+#       for w in my_list:
+#             nl.append(my_list.index(), w)
+
+# my_enumerate(nl)
 
 
